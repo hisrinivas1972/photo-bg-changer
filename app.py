@@ -24,7 +24,16 @@ paths = {
     "Machu Picchu" :"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1280px-Machu_Picchu%2C_Peru.jpg"
 }
 
-st.title("🌟 Transform Your Photo with Iconic Places")
+# st.title("🌟 Transform Your Photo with Iconic Places")
+st.markdown(
+    """
+    <h2 style='text-align: center; font-size: 20px;'>
+    🌟 Transform Your Photo with Iconic Places
+    </h2>
+    """,
+    unsafe_allow_html=True
+)
+
 st.write("Choose a background for your photo:")
 
 bg_name = st.selectbox("Select Background", list(paths.keys()))
