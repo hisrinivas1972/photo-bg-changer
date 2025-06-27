@@ -24,7 +24,7 @@ paths = {
     "Machu Picchu" :"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1280px-Machu_Picchu%2C_Peru.jpg"
 }
 
-st.title("🎨 Photo Background Changer")
+st.title("🌟 Transform Your Photo with Iconic Places")
 st.write("Choose a background for your photo:")
 
 bg_name = st.selectbox("Select Background", list(paths.keys()))
