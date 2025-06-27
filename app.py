@@ -27,7 +27,7 @@ paths = {
 # st.title("🌟 Transform Your Photo with Iconic Places")
 st.markdown(
     """
-    <h2 style='text-align: center; font-size: 24px;'>
+    <h2 style='text-align: center; font-size: 30px;'>
     🌟 Transform Your Photo with Iconic Places
     </h2>
     """,
